@@ -1,0 +1,115 @@
+body {
+    font: 18px/2 Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0; 
+    background-color: white;
+  }
+  
+  /*header*/
+  header{
+      background:black;
+      color: greenyellow;
+      padding-top:10px;
+      min-height: 50px;
+      border-bottom: greenyellow 3px solid;
+      text-align: center;
+      margin: 0;
+  }
+  header a{
+      color:white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+
+  }
+ 
+  header li{
+      display:inline;
+      padding:0 20px 0 20px;
+  }
+  header .current a{
+      color:yellowgreen;
+      font-weight: bold;
+  }
+  header a:hover{
+        color: yellowgreen;
+        font-weight: bold;
+  }
+  /*Global*/
+  .Holder
+  {
+      width:80%;
+      margin:auto;
+      overflow:hidden;
+      
+  }
+  ul{
+    margin:0;
+    padding:0;
+  }
+  /*description*/
+  #description{
+      min-height:70px;
+      background-color:white;
+      text-align:left;
+      padding-top: 50px;
+      padding-left:300px;
+      color:black;
+      background: url("img/2.jpg") no-repeat;
+      
+  }
+  img{
+    border-radius: 10px;
+    border: 5px solid yellowgreen;
+  }
+ .center 
+  {
+      display:block;
+     margin-left: auto; 
+     margin-right: auto;
+ }
+ /* box */
+ #box{
+     margin-top:15px;
+    
+ }
+ #box .flip{
+    float:left;
+    width:30%;
+    text-align: center;
+    padding: 20px;
+  
+ }
+  
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+  }
+  
+ .flip:hover .flip-inner {
+    transform: rotateY(180deg);
+  
+  }
+  
+ .flip-front, .flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+ .flip-back {
+    color:black;
+    transform: rotateY(180deg);
+  }
+ footer{
+     padding:15px;
+     margin-top: 450px;
+     color: greenyellow;
+     background-color: black;
+     text-align: center;
+ }
